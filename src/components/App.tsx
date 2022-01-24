@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/profile" element={<Profile />} />
           <Route path="/login" element={<Login />} />
-          <Route path="*" element={<Navigate to="/login" />} />
+          <Route path="*" element={<Navigate to="/login " />} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>
